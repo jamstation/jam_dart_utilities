@@ -1,0 +1,15 @@
+name: jam_dart_utilities
+description: A library of utilities for all jamstation dart apps
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  # Jam Packages
+  jam_dart_models:
+    path: ../models
+  # Dart Packages
+  meta: ^1.1.6
+
+dev_dependencies:
